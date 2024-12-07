@@ -16,7 +16,7 @@ const Categories: FunctionComponent<CategoriesProps> = () => {
         <div className={styles.category}>
           <Link to="/phones" >
             < div className={styles.category_image_phones}>
-              <img src="img/category-phones.webp" alt="category-image" />
+              <img src={`${process.env.PUBLIC_URL}/img/category-phones.webp`} alt="category-image" />
             </div>
           </Link>
           <span className={styles.category_title}>Mobile phones</span>
@@ -25,7 +25,7 @@ const Categories: FunctionComponent<CategoriesProps> = () => {
         <div className={styles.category}>
           <Link to="/tablets" >
             <div className={styles.category_image_tablets}>
-              <img src="img/category-tablets.png" alt="category-image" />
+              <img src={`${process.env.PUBLIC_URL}/img/category-tablets.png`} alt="category-image" />
             </div>
           </Link>
 
@@ -35,7 +35,7 @@ const Categories: FunctionComponent<CategoriesProps> = () => {
         <div className={styles.category}>
           <Link to="/accessories" >
             <div className={styles.category_image_accessories}>
-              <img src="img/category-accessories.png" alt="category-image" />
+              <img src={`${process.env.PUBLIC_URL}/img/category-accessories.png`} alt="category-image" />
             </div>
           </Link>
 
