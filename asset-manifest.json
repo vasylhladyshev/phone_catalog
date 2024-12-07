@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.4299bab3.css",
-    "main.js": "/static/js/main.d3b9979a.js",
-    "static/js/453.8d333aa8.chunk.js": "/static/js/453.8d333aa8.chunk.js",
-    "static/media/mont_extralightdemo.ttf": "/static/media/mont_extralightdemo.95f9f2b417055e079328.ttf",
-    "static/media/mont_heavydemo.ttf": "/static/media/mont_heavydemo.daa26bfb63618aad17f7.ttf",
-    "static/media/SliderImg3.png": "/static/media/SliderImg3.aabc2978e2cb0f91d6d2.png",
-    "static/media/Mont-Regular.otf": "/static/media/Mont-Regular.1d26d89f7339866d3133.otf",
-    "static/media/SliderImg1.png": "/static/media/SliderImg1.f1991d32ca5fffb6a2f2.png",
-    "static/media/SliderImg2.png": "/static/media/SliderImg2.2d7d1e58d39dbaa179f5.png",
-    "static/media/IconHome.jpg": "/static/media/IconHome.2f684686148b4c6710ae.jpg",
-    "index.html": "/index.html",
-    "main.4299bab3.css.map": "/static/css/main.4299bab3.css.map",
-    "main.d3b9979a.js.map": "/static/js/main.d3b9979a.js.map",
-    "453.8d333aa8.chunk.js.map": "/static/js/453.8d333aa8.chunk.js.map"
+    "main.css": "/phone_catalog/static/css/main.3ff17688.css",
+    "main.js": "/phone_catalog/static/js/main.d9b73f44.js",
+    "static/js/453.8d333aa8.chunk.js": "/phone_catalog/static/js/453.8d333aa8.chunk.js",
+    "static/media/mont_extralightdemo.ttf": "/phone_catalog/static/media/mont_extralightdemo.95f9f2b417055e079328.ttf",
+    "static/media/mont_heavydemo.ttf": "/phone_catalog/static/media/mont_heavydemo.daa26bfb63618aad17f7.ttf",
+    "static/media/SliderImg3.png": "/phone_catalog/static/media/SliderImg3.aabc2978e2cb0f91d6d2.png",
+    "static/media/Mont-Regular.otf": "/phone_catalog/static/media/Mont-Regular.1d26d89f7339866d3133.otf",
+    "static/media/SliderImg1.png": "/phone_catalog/static/media/SliderImg1.f1991d32ca5fffb6a2f2.png",
+    "static/media/SliderImg2.png": "/phone_catalog/static/media/SliderImg2.2d7d1e58d39dbaa179f5.png",
+    "static/media/IconHome.jpg": "/phone_catalog/static/media/IconHome.2f684686148b4c6710ae.jpg",
+    "index.html": "/phone_catalog/index.html",
+    "main.3ff17688.css.map": "/phone_catalog/static/css/main.3ff17688.css.map",
+    "main.d9b73f44.js.map": "/phone_catalog/static/js/main.d9b73f44.js.map",
+    "453.8d333aa8.chunk.js.map": "/phone_catalog/static/js/453.8d333aa8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4299bab3.css",
-    "static/js/main.d3b9979a.js"
+    "static/css/main.3ff17688.css",
+    "static/js/main.d9b73f44.js"
   ]
 }
