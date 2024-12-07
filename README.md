@@ -4,7 +4,7 @@ Phone catalog
 
 Technologies
 
-HTML5, SCSS, Flex-box, JavaScript
+HTML5, SCSS, Flex-box, JavaScript, React, TypeScript
 
 Description
 
