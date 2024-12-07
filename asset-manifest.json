@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/phone_catalog/static/css/main.bbaf6116.css",
-    "main.js": "/phone_catalog/static/js/main.bbec3668.js",
+    "main.css": "/phone_catalog/static/css/main.cd8cc258.css",
+    "main.js": "/phone_catalog/static/js/main.6eeb3369.js",
     "static/js/453.8d333aa8.chunk.js": "/phone_catalog/static/js/453.8d333aa8.chunk.js",
     "static/media/mont_extralightdemo.ttf": "/phone_catalog/static/media/mont_extralightdemo.95f9f2b417055e079328.ttf",
     "static/media/mont_heavydemo.ttf": "/phone_catalog/static/media/mont_heavydemo.daa26bfb63618aad17f7.ttf",
@@ -11,12 +11,12 @@
     "static/media/SliderImg2.png": "/phone_catalog/static/media/SliderImg2.2d7d1e58d39dbaa179f5.png",
     "static/media/IconHome.jpg": "/phone_catalog/static/media/IconHome.2f684686148b4c6710ae.jpg",
     "index.html": "/phone_catalog/index.html",
-    "main.bbaf6116.css.map": "/phone_catalog/static/css/main.bbaf6116.css.map",
-    "main.bbec3668.js.map": "/phone_catalog/static/js/main.bbec3668.js.map",
+    "main.cd8cc258.css.map": "/phone_catalog/static/css/main.cd8cc258.css.map",
+    "main.6eeb3369.js.map": "/phone_catalog/static/js/main.6eeb3369.js.map",
     "453.8d333aa8.chunk.js.map": "/phone_catalog/static/js/453.8d333aa8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbaf6116.css",
-    "static/js/main.bbec3668.js"
+    "static/css/main.cd8cc258.css",
+    "static/js/main.6eeb3369.js"
   ]
 }
