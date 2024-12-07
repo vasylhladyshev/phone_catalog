@@ -1,0 +1,346 @@
+.products_page {
+  padding: 24px 32px;
+  max-width: 1136px;
+  margin: 0 auto;
+
+  .path {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+
+    @media (min-width: 640px) {
+      margin-bottom: 40px;
+    }
+
+    .icon_home {
+      width: 13.3px;
+      height: 14.7px;
+      margin-right: 14.6px;
+      display: flex;
+    }
+
+    .icon_right {
+      margin-right: 13.3px;
+    }
+
+    .path_span {
+      font-family: Mont;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15.34px;
+      color: rgba(137, 147, 154, 1);
+      cursor: pointer;
+
+      &:hover {
+        color: rgba(49, 50, 55, 1);
+      }
+    }
+  }
+
+  .products_page_title {
+    margin: 0;
+    font-family: Mont;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    color: rgba(49, 50, 55, 1);
+    margin-bottom: 8px;
+
+    @media (max-width: 640px) {
+      font-size: 32px;
+      line-height: 41px;
+    }
+  }
+
+  .items_amount {
+    font-family: Mont;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(137, 147, 154, 1);
+    margin-bottom: 40px;
+    display: block;
+
+    @media (max-width: 640px) {
+      margin-bottom: 32px;
+    }
+  }
+
+  .products_page_content {
+    .parameters {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 24px;
+      .sort {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+       &_span {
+          font-family: Mont;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 15.34px;
+          color: rgba(137, 147, 154, 1);
+          margin-bottom: 4px;
+        }
+
+        .sort_type_div {
+          position: relative;
+          border: 1px solid rgba(180, 189, 195, 1);
+          padding: 10px 12px;
+          cursor: pointer;
+          min-width: 140px;
+          box-sizing: border-box;
+          font-family: Mont;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 21px;
+          color: rgba(49, 50, 55, 1);
+
+          &::after {
+            position: absolute;
+            top: 8px;
+            right: 12px;
+            content: url(../../assets/VectorBot.png);
+            pointer-events: none;
+          }
+
+          &_open {
+            position: relative;
+            border: 1px solid rgba(180, 189, 195, 1);
+            padding: 10px 12px;
+            cursor: pointer;
+            min-width: 140px;
+            box-sizing: border-box;
+            font-family: Mont;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            color: rgba(49, 50, 55, 1);
+  
+  
+            &::after {
+              position: absolute;
+              top: 8px;
+              right: 12px;
+              content: url(../../assets/VectorTop.png);
+              pointer-events: none;
+            }
+          }
+        }
+
+        .options {
+          display: none;
+
+          &_open {
+            background-color: white;
+            border: 1px solid rgba(226, 230, 233, 1);
+            position: absolute;
+            top: 70px;
+            padding: 8px 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            min-width: 140px;
+            box-sizing: border-box;
+            .option {
+              font-family: Mont;
+              font-size: 14px;
+              line-height: 21px;
+              font-weight: 500;
+              color: rgba(137, 147, 154, 1);
+              cursor: pointer;
+  
+              &:hover {
+                color: rgba(49, 50, 55, 1);
+              }
+            }
+          }
+        }
+      }
+
+      .items_on_page {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        font-family: Mont;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: rgba(49, 50, 55, 1);
+
+        &_span {
+          font-family: Mont;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 15.34px;
+          color: rgba(137, 147, 154, 1);
+          margin-bottom: 4px;
+        }
+
+        .sort_control_div {
+          position: relative;
+          border: 1px solid rgba(180, 189, 195, 1);
+          padding: 10px 12px;
+          cursor: pointer;
+          box-sizing: border-box;
+
+          &::after {
+            position: absolute;
+            top: 8px;
+            right: 12px;
+            content: url(../../assets/VectorBot.png);
+            pointer-events: none;
+          }
+
+          &_open {
+            position: relative;
+            border: 1px solid rgba(180, 189, 195, 1);
+            padding: 10px 12px;
+            cursor: pointer;
+            box-sizing: border-box;
+            font-family: Mont;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            color: rgba(49, 50, 55, 1);
+  
+  
+            &::after {
+              position: absolute;
+              top: 8px;
+              right: 12px;
+              content: url(../../assets/VectorTop.png);
+              pointer-events: none;
+            }
+          }
+        }
+
+        .options {
+          display: none;
+
+          &_open {
+            background-color: white;
+            border: 1px solid rgba(226, 230, 233, 1);
+            position: absolute;
+            top: 70px;
+            padding: 8px 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            min-width: 140px;
+            box-sizing: border-box;
+            .option {
+              font-family: Mont;
+              font-size: 14px;
+              line-height: 21px;
+              font-weight: 500;
+              color: rgba(137, 147, 154, 1);
+              cursor: pointer;
+  
+              &:hover {
+                color: rgba(49, 50, 55, 1);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .products_page_items {
+      grid-template-columns: repeat(auto-fill, minmax(272px, 1fr));
+      display: grid;
+      column-gap: 16px;
+      row-gap: 40px;
+      margin-bottom: 24px;
+      max-width: 100%;
+
+      @media (min-width: 640px) {
+        margin-bottom: 40px;
+      }
+    }
+
+    .buttons {
+      margin: 0 auto;
+      width: max-content;
+      display: flex;
+      gap: 16px;
+      .prev_btn {
+        background-color: transparent;
+        border: 1px solid rgba(180, 189, 195, 1);
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        &::after {
+          content: url(../../assets/VectorLeftBlack.png);
+        }
+
+        &:hover {
+          border: 1px solid rgba(49, 50, 55, 1);
+        }
+
+        &:disabled {
+          border: 1px solid rgba(226, 230, 233, 1);
+
+          &::after {
+            content: url(../../assets/VectorLeft.png);
+          }
+        }
+      }
+
+      .paginate_btns {
+        display: flex;
+        gap: 8px;
+
+        .page_btn_active {
+          background-color: rgba(49, 50, 55, 1);
+          color: white;
+          border: 1px solid rgba(180, 189, 195, 1);
+          width: 32px;
+          height: 32px;
+          cursor: pointer;
+
+          &:hover {
+            border: 1px solid rgba(49, 50, 55, 1);
+          }
+        }
+
+        .page_btn {
+          background-color: transparent;
+          border: 1px solid rgba(180, 189, 195, 1);
+          width: 32px;
+          height: 32px;
+          cursor: pointer;
+
+          &:hover {
+            border: 1px solid rgba(49, 50, 55, 1);
+          }
+        }
+      }
+
+      .next_btn {
+        background-color: transparent;
+        border: 1px solid rgba(180, 189, 195, 1);
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        &::after {
+          content: url(../../assets/VectorRightBlack.png);
+        }
+
+        &:hover {
+          border: 1px solid rgba(49, 50, 55, 1);
+        }
+
+        &:disabled {
+          border: 1px solid rgba(226, 230, 233, 1);
+
+          &::after {
+            content: url(../../assets/VectorRight.png);
+          }
+        }
+      }
+    }
+  }
+}

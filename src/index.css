@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Mont',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,4 +10,31 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'Mont_heavy';
+  src: url('./assets/Mont/mont_heavydemo.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('./assets/Mont/Mont-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Mont_light';
+  src: url('./assets/Mont/mont_extralightdemo.ttf') format('truetype');
+}
+
+.app_container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
 }

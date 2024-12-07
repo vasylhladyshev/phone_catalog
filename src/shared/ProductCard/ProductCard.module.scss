@@ -1,0 +1,155 @@
+.product_card {
+  min-width: 212px;
+  max-width: 287px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  border: 1px solid rgba(226, 230, 233, 1);
+  box-sizing: border-box;
+  justify-content: space-between;
+
+  @media (min-width: 640px) {
+    min-width: 237px;
+  }
+
+  @media (min-width: 1200px) {
+    min-width: 272px;
+  }
+
+  .img_link {
+    display: flex;
+    text-align: center;
+  }
+
+  img {
+    margin-bottom: 24px;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+
+  .title_link {
+    text-decoration: none;
+  }
+
+  .title {
+    font-family: Mont;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(49, 50, 55, 1);
+    margin-bottom: 8px;
+  }
+
+  .price {
+    border-bottom: 1px solid rgba(226, 230, 233, 1);
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+
+    .price_span {
+      font-family: Mont;
+      font-weight: 800;
+      font-size: 22px;
+      line-height: 30.8px;
+      color: rgba(49, 50, 55, 1);
+    }
+  }
+
+  .characteristic {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+
+    .characteristic_name {
+      font-family: Mont;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      color: rgba(137, 147, 154, 1);
+    }
+
+    .characteristic_property {
+      font-family: Mont;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      color: rgba(49, 50, 55, 1);
+    }
+  }
+
+  .buttons {
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+
+    .add_cart_btn {
+      background-color: rgba(49, 50, 55, 1);
+      color: white;
+      width: 100%;
+      font-family: Mont;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      height: 40px;
+      cursor: pointer;
+
+      &:hover {
+        box-shadow: 0 3px 13px 0 rgba(23, 32, 49, 0.4);
+      }
+    }
+
+    .add_cart_btn_active {
+      @extend .add_cart_btn;
+      background-color: transparent;
+      color: rgba(39, 174, 96, 1);
+
+      border: 1px solid rgba(226, 230, 233, 1);
+      &:hover {
+        border: 1px solid rgb(167, 170, 187);
+        box-shadow: 0 0px 0px 0 rgba(23, 32, 49, 0.4);
+      }
+    }
+
+    .add_fav_btn {
+      background-color: transparent;
+      border: 1px solid rgba(180, 189, 195, 1);
+      height: 40px;
+      width: 40px;
+      min-width: 40px;
+      cursor: pointer;
+      position: relative;
+
+      &:hover {
+        border: 1px solid rgba(49, 50, 55, 1);
+      }
+
+      &::after {
+        content: url(../../assets/FavoritesLogo.png);
+        position: absolute;
+        top: 12px;
+        left: 11px;
+      }
+    }
+
+    .add_fav_btn_active {
+      background-color: transparent;
+      border: 1px solid rgba(226, 230, 233, 1);
+      height: 40px;
+      width: 40px;
+      min-width: 40px;
+      cursor: pointer;
+      position: relative;
+
+      &:hover {
+        border: 1px solid rgba(180, 189, 195, 1);
+      }
+
+      &::after {
+        content: url(../../assets//RedFavorite.png);
+        position: absolute;
+        top: 12px;
+        left: 11px;
+      }
+    } 
+  }
+}

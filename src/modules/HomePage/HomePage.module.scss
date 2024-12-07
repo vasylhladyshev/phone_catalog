@@ -1,0 +1,28 @@
+.home_page{
+    padding-left: 16px;
+
+    @media (min-width: 640px) {
+      padding-left: 24px;
+    }
+
+    @media (min-width: 1200px) {
+      padding-left: 0;
+    }
+    .title {
+        margin: 0 auto;
+        padding: 24px 16px 32px 0;
+        max-width: max-content;
+        font-family: Mont;
+
+        color: rgba(49, 50, 55, 1);
+        font-weight: 800;
+        line-height: 56px;
+        font-size: 48px;
+    
+        
+      @media (max-width: 640px) {
+        font-size: 32px;
+        line-height: 41px;
+      }
+    }
+}
