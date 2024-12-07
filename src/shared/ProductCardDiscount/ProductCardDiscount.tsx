@@ -72,7 +72,7 @@ const ProductCardDiscount: FunctionComponent<ProductCardDiscountProps> = ({
         onClick={scrollToTop}
       >
         {" "}
-        <img src={`/${item.images[0]}`} alt="product_image" />
+        <img src={`${process.env.PUBLIC_URL}/${item.images[0]}`} alt="product_image" />
       </Link>
 
       <Link

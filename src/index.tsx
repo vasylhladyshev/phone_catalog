@@ -22,7 +22,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/phone_catalog">
       <CartProvider>
         <FavoriteProvider>
           <div className="app_container">

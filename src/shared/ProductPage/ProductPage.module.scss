@@ -200,7 +200,7 @@
             }
 
             @media (min-width: 1200px) {
-              height: 72px;
+              height: 74px;
               width: 80px;
             }
 
@@ -236,9 +236,6 @@
 
     .product_settings {
       width: 100%;
-
-      @media (min-width: 640px) {
-      }
 
       .color_settings {
         display: flex;

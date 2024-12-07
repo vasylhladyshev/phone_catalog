@@ -283,13 +283,13 @@ const ProductPage: FunctionComponent<ProductPageProps> = () => {
                 key={image}
                 onClick={() => changeImage(index)}
               >
-                <img src={`/${image}`} alt="product_image" />{" "}
+                <img src={`${process.env.PUBLIC_URL}/${image}`} alt="product_image" />{" "}
               </div>
             ))}
           </div>
           <div className={styles.main_image}>
             <img
-              src={`/${item?.images.find(
+              src={`${process.env.PUBLIC_URL}/${item?.images.find(
                 (image, index) => index === choosenImage
               )}`}
               alt="product_image"
