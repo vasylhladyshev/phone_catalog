@@ -1,13 +1,22 @@
-Phone catalog
+# Phone Catalog
+A small e-commerce style catalog app built with React and TypeScript.  
+Includes client-side routing and persistent state via Local Storage.
 
-[figma](https://www.figma.com/file/T5ttF21UnT6RRmCQQaZc6L/Phone-catalog-(V2)-Original)
+## Design
+https://www.figma.com/file/T5ttF21UnT6RRmCQQaZc6L/Phone-catalog-(V2)-Original
 
-Technologies
+## Live Demo
+https://vasylhladyshev.github.io/phone_catalog/
 
-HTML5, SCSS, Flex-box, JavaScript, React, TypeScript
+## Tech Stack
+- React
+- TypeScript
+- React Router
+- Local Storage
 
-Description
-
-online store for phones, tablets, and accessories
-
-[demo link](https://vasylhladyshev.github.io/phone_catalog/)
+## Features
+- Phone catalog and product details pages
+- Search and sorting
+- Favorites and shopping cart
+- State persistence using Local Storage
+- Client-side routing
